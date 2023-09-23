@@ -1,3 +1,26 @@
+# Gift on Time
+
+Gift on Time is een innovatieve applicatie die gebruikers helpt om belangrijke data's zoals verjaardagen en trouwdagen te onthouden en te vieren. Met geïntegreerde geschenksuggesties, evenementenbeheer en een sociaal aspect, streeft Gift on Time ernaar om het geven en ontvangen van geschenken naadloos en vreugdevol te maken.
+
+## Inhoudsopgave
+
+- [Inleiding](#inleiding)
+- [Projectstructuur](#projectstructuur)
+- [Tech Stack](#tech-stack)
+- [Meer Info](#meer-info)
+- [Vereisten](#vereisten)
+- [Aan de slag](#aan-de-slag)
+  - [Algemeen](#algemeen)
+  - [Backend](#backend)
+    - [Testen (Backend)](#testen-backend)
+    - [Database Migraties (Backend)](#database-migraties-backend)
+  - [Web Frontend](#web-frontend)
+  - [Mobile App](#mobile-app)
+- [Functies](#functies)
+- [Contact](#contact)
+- [Changelog](#changelog)
+- [Licentie](#licentie)
+
 ## Inleiding
 
 Gift on Time is ontworpen om het leven een beetje eenvoudiger en vreugdevoller te maken. In onze drukke levens vergeten we vaak belangrijke data's zoals verjaardagen of jubilea. Deze app helpt niet alleen bij het onthouden van deze data's, maar biedt ook suggesties voor geschenken via affiliate marketing, waardoor het kiezen van het perfecte cadeau een fluitje van een cent wordt.
@@ -41,55 +64,55 @@ Gift on Time is ontworpen om het leven een beetje eenvoudiger en vreugdevoller t
 
 1. Clone de repository: 
 
-    git clone https://github.com/stedingkje/gift-on-time.git
+       git clone https://github.com/stedingkje/gift-on-time.git
 
 ### Backend
 
 1. Navigeer naar de `backend` map: 
 
-    cd backend
+       cd backend
 
 2. Installeer de dependencies: 
 
-    npm install
+       npm install
 
 3. Start de server: 
 
-    npm start
+       npm start
 
 #### Testen (Backend)
 
 Om de tests uit te voeren, gebruik: 
 
-    npm test
+       npm test
 
 #### Database Migraties (Backend)
 
 - Maak een nieuwe migratie: 
 
-    npm run migrate:create
+       npm run migrate:create
 
 - Voer migraties uit: 
 
-    npm run migrate:run
+       npm run migrate:run
 
 - Draai migraties terug: 
 
-    npm run migrate:revert
+       npm run migrate:revert
 
 ### Web Frontend
 
 1. Navigeer naar de `web` map: 
 
-    cd frontend/web
+       cd frontend/web
 
 2. Installeer de dependencies: 
 
-    npm install
+       npm install
 
 3. Start de app: 
 
-    npm run dev
+       npm run dev
 
 #### Testen (Web)
 
@@ -101,15 +124,15 @@ Om de tests uit te voeren, gebruik:
 
 1. Navigeer naar de `mobile` map: 
 
-    cd frontend/mobile
+       cd frontend/mobile
 
 2. Installeer de dependencies: 
 
-    npm install
+       npm install
 
 3. Start de app: 
 
-    npm start
+       npm start
 
 #### Testen (Mobile)
 
